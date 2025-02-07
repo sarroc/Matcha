@@ -1,1 +1,38 @@
-h1
+h1 {
+  color: #e32e34;
+}
+
+h2 {
+  color: #fc9fb1;
+}
+
+h3 {
+  color: #8cb360;
+}
+
+p {
+  color: #4f6d3a;
+  background-color: #fc5a8d;
+}
+
+button {
+  color: #ec4653;
+  background-color: #4f6d3a;
+}
+
+.styled-image img {
+  width: 280px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+img {
+  max-width: 150px;
+}
+
+div {
+  display: inline-block;
+  margin-right: 20px;
+}
