@@ -1,15 +1,20 @@
 h1 {
   color: #e32e34;
+  text-align: center;
 }
 
 h2 {
   color: #fc9fb1;
+  text-align: center;
 }
 
 h3 {
   color: #8cb360;
 }
 
+h4 {
+  color: #fc9fb1;
+}
 p {
   color: #4f6d3a;
   background-color: #fc5a8d;
@@ -20,12 +25,18 @@ button {
   background-color: #4f6d3a;
 }
 
+button:hover {
+  color: #4f6d3a;
+  background-color: #fc5a8d;
+}
+
 .styled-image img {
   width: 280px;
   height: 200px;
   border: 1px solid black;
   border-radius: 10px;
   padding: 10px;
+  margin: auto;
 }
 
 img {
@@ -33,6 +44,6 @@ img {
 }
 
 div {
-  display: inline-block;
-  margin-right: 20px;
+  display: center;
+  margin-right: inline-block;
 }
