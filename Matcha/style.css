@@ -12,12 +12,24 @@ h3 {
   color: #8cb360;
 }
 
+h3:nth-of-type(2n) {
+  color: #fc5a8d;
+}
+
 h4 {
+  color: #4f6d3a;
+}
+
+h4:nth-of-type(2n) {
   color: #fc9fb1;
 }
 p {
   color: #4f6d3a;
   background-color: #fc5a8d;
+}
+
+p:nth-of-type(2n) {
+  background-color: #8cb360;
 }
 
 button {
